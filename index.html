@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia JG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <img src="Fotos dos cortes/foto da barbearia.jpg" alt="Logo Barbearia" class="logo">
+        <div>
+        <h1>Barbearia JG</h1>
+        <p>Transformando seu visual com estilo!</p>
+        </div>
+    </header>
+
+    <section class="cortes">
+        <h2>Nossos Estilos de Corte</h2>
+        <div class="galeria">
+            <div class="corte">
+                <img src="Fotos dos cortes/Barba.jpg" alt="Barba">
+                <p>Barba</p>
+            </div>
+            <div class="corte">
+                <img src="Fotos dos cortes/pezinho.jpg" alt="Pezinho">
+                <p>Pezinho</p>
+            </div>
+            <div class="corte">
+                <img src="Fotos dos cortes/Degradê.jpg" alt="Degradê">
+                <p>Degradê</p>
+            </div>
+            <div class="corte">
+                <img src="Fotos dos cortes/Corte simples.jpg" alt="Corte Simples">
+                <p>Corte Simples</p>
+            </div>
+            <div class="corte">
+                <img src="Fotos dos cortes/Sobrancelha.jpg" alt="Sobrancelha">
+                <p>Sobrancelha</p>
+            </div>
+            <div class="corte">
+                <img src="Fotos dos cortes/Pigmentação.jpg" alt="Pigmentação">
+                <p>Pigmentação</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reserva">
+        <h2>Agende seu Horário</h2>
+        <form id="formReserva">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="date" id="data" required>
+            <input type="time" id="horario" required>
+
+            <label for="tipoCorte">Tipo de Corte:</label>
+            <select id="tipoCorte" required>
+                <option value="">Selecione</option>
+                <option value="Barba">Barba</option>
+                <option value="Pezinho">Pezinho</option>
+                <option value="Degradê">Degradê</option>
+                <option value="Corte Simples">Corte Simples</option>
+                <option value="Sobrancelha">Sobrancelha</option>
+                <option value="Pigmentação">Pigmentação</option>
+            </select>
+
+            <button type="submit">Reservar Agora</button>
+        </form>
+        <p id="mensagem"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Barbearia JG. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+    
+</body>
+</html>
